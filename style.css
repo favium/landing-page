@@ -72,7 +72,7 @@ ul {
     color: #f9faf8;
     border: none;
     border-radius: 20px;
-    width: 30%;
+    width: fit-content;
 }
 
 .hero img {
@@ -87,4 +87,43 @@ ul {
 
 .hero-secondary {
     width: 80%;
+}
+
+/* info */
+
+.info {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 10px 10%;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    padding: 30px;
+}
+
+.info-imgs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-imgs img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.imgtext {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 20%;
+    font-size: 19px;
 }
