@@ -81,10 +81,6 @@ ul {
     border-radius: 30px;
 }
 
-.hero-primary {
-    
-}
-
 .hero-secondary {
     width: 80%;
 }
@@ -206,4 +202,16 @@ button:hover,
     background-color: white;
     border: #3882f6;
     color: #3882f6;
+}
+
+/* footer*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
 }
