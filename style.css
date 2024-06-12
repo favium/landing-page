@@ -1,0 +1,51 @@
+/* main sections */
+* {
+    /* outline: solid; */
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    padding: 0;
+    margin: 0;
+}
+
+.nav,
+.hero {
+    background-color: #1f2937;
+}
+
+/* nav */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 90px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.hero-secondary,
+.navmenu  {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+/* hero */
+
+.hero {
+    display: flex;
+    
+}
