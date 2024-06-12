@@ -47,5 +47,44 @@ ul {
 
 .hero {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 15%;
     
+}
+
+.hero-left {
+    display: flex;
+    flex-flow: column;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    height: 300px;
+    width: 700px;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.hero-cta {
+    padding: 20px 50px;
+    background-color: #3882f6;
+    font-size: 20px;
+    color: #f9faf8;
+    border: none;
+    border-radius: 20px;
+    width: 30%;
+}
+
+.hero img {
+    height: 300px;
+    width: auto;
+    border-radius: 30px;
+}
+
+.hero-primary {
+    
+}
+
+.hero-secondary {
+    width: 80%;
 }
