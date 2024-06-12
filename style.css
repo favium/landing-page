@@ -1,6 +1,6 @@
 /* main sections */
 * {
-    /* outline: solid; */
+    /* outline: purple solid; */
 }
 
 body {
@@ -108,7 +108,9 @@ ul {
 
 .info-imgs {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
+    padding: 20px;
 }
 
 .info-imgs img {
@@ -123,7 +125,85 @@ ul {
     flex-flow: column;
     align-items: center;
     text-align: center;
-    flex-wrap: wrap;
+    flex: auto;
     width: 20%;
     font-size: 19px;
+}
+
+/* quote */
+
+.quote {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 90px 300px;
+    gap: 30px;
+}
+
+.quotetxt {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quoter {
+    display: flex;
+    justify-content: right;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+/* cta */
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.cta.modal {
+    display: flex;
+    gap: 10px;
+    background-color: #3882f6;
+    padding: 50px;
+    color: white;
+    font-size: x-large;
+    justify-content: space-around;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.cta.modal.text {
+    display: flex;
+    flex-flow: column;
+    align-items: first baseline;
+    width: 50%;
+}
+
+.cta.modal button {
+    background-color: #3882f6;
+    padding: 10px 30px;
+    color: white;
+    font-size: large;
+    border-radius: 15px;
+    border-color: white;
+    box-shadow: none;
+    border-style: solid;
+}
+
+#come {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+button:hover,
+.cta.modal button:hover {
+    background-color: white;
+    border: #3882f6;
+    color: #3882f6;
 }
