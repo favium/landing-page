@@ -1,7 +1,4 @@
 /* main sections */
-* {
-    /* outline: purple solid; */
-}
 
 body {
     display: flex;
@@ -124,6 +121,12 @@ ul {
     flex: auto;
     width: 20%;
     font-size: 19px;
+}
+
+.info-imgs img:hover {
+    transition-duration: 0.4s;
+    height: 290px;
+    width: 290px;
 }
 
 /* quote */
